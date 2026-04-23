@@ -238,11 +238,15 @@ export const useSettingsStore = create<SettingsState>()(
       name: 'settings-storage',
       version: 10,
       onRehydrateStorage: () => {
-        return (_state, error) => {
+        return (state, error) => {
           if (error) {
             console.error('failed to hydrate settings storage', error);
           }
-          useSettingsStore.setState({ isHydrated: true });
+          if (state) {
+            state.isHydrated = true;
+          } else {
+            queueMicrotask(() => useSettingsStore.setState({ isHydrated: true }));
+          }
         };
       },
       migrate: (persistedState: unknown) => {
