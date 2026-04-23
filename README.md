@@ -2,8 +2,6 @@
   <img src="./src-tauri/icons/128x128@2x.png" width="100" height="100" alt="Storyboard Copilot" style="margin-bottom: -50px;">
   <h1 style="color: ##111227;">分镜助手</h1>
   <h3>基于节点画布的 AI 分镜工作台，一站式完成图片生成、编辑与分镜流程</h3>
-
-  [![Bilibili](https://img.shields.io/badge/bilibili-痕继痕迹-00AEEC?logo=bilibili)](https://space.bilibili.com/39337803)
 </div>
 
 <div align="center">
@@ -18,10 +16,7 @@ Windows 用户请下载 <strong>.exe</strong> 文件，macOS 用户请下载 <st
 Windows 用户如果在启动时遇到了报错，请尝试安装 [WebView2 运行时](https://developer.microsoft.com/zh-cn/Microsoft-edge/webview2#download)
 
 ### Github 下载
-[![Download Latest Release](https://img.shields.io/github/v/release/henjicc/Storyboard-Copilot?style=for-the-badge&color=blue)](https://github.com/henjicc/Storyboard-Copilot/releases/latest)
-
-### 网盘下载
-**夸克网盘**：[https://pan.quark.cn/s/5b6733a8fc8e](https://pan.quark.cn/s/5b6733a8fc8e)
+[![Download Latest Release](https://img.shields.io/github/v/release/misakaikato/Storyboard-Copilot?style=for-the-badge&color=blue)](https://github.com/misakaikato/Storyboard-Copilot/releases/latest)
 
 </div>
 
@@ -29,12 +24,31 @@ Windows 用户如果在启动时遇到了报错，请尝试安装 [WebView2 运�
 
 <div align="center">
   <div style="text-align: center; font-weight: 700; margin-bottom: 10px; font-size: 20px;">
-    <a href="https://platform.minimaxi.com/subscribe/token-plan?code=8XOI15IbO4&source=link" target="_blank" style="color: #f0440bff; text-decoration: none;">
-      MiniMax M2.7 Token Plan 专属 88 折优惠
+    <a href="https://platform.minimaxi.com/subscribe/token-plan?code=H58G1T6WnZ&source=link" target="_blank" style="color: #f0440bff; text-decoration: none;">
+      🚀 MiniMax Token Plan 惊喜上线
     </a>
   </div>
-  <a href="https://platform.minimaxi.com/subscribe/token-plan?code=8XOI15IbO4&source=link" target="_blank">
-    <img src="./docs/imgs/readme/token_plan.webp" alt="MiniMax Coding Plan" width="720">
+  <p>
+    新增语音、音乐、视频和图片生成权益。邀请好友享双重好礼，助力开发体验！<br />
+    好友立享 <strong>9 折专属优惠</strong> + Builder 权益，你赢返利 + 社区特权！
+  </p>
+  <a href="https://platform.minimaxi.com/subscribe/token-plan?code=H58G1T6WnZ&source=link" target="_blank">
+    <img src="./docs/imgs/readme/token_plan.webp" alt="MiniMax Token Plan" width="720">
+  </a>
+</div>
+
+<div align="center" style="margin-top: 28px;">
+  <div style="text-align: center; font-weight: 700; margin-bottom: 10px; font-size: 20px;">
+    <a href="https://www.bigmodel.cn/glm-coding?ic=JXQACHMWPT" target="_blank" style="color: #f0440bff; text-decoration: none;">
+      🙋 蹲队友拼智谱 Coding Plan
+    </a>
+  </div>
+  <p>
+    🧩 国内顶流编程大模型，20+ 主流工具全适配，性价比拉满。<br />
+    👉 立即参与「拼好模」：<a href="https://www.bigmodel.cn/glm-coding?ic=JXQACHMWPT" target="_blank">https://www.bigmodel.cn/glm-coding</a>
+  </p>
+  <a href="https://www.bigmodel.cn/glm-coding?ic=JXQACHMWPT" target="_blank">
+    <img src="./docs/imgs/readme/glm_coding_plan.png" alt="智谱 GLM Coding Plan" width="420">
   </a>
 </div>
 
