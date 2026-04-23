@@ -16,14 +16,11 @@ impl Default for NanoBananaAdapter {
 
 impl OpenAICompatModelAdapter for NanoBananaAdapter {
 	fn model_aliases(&self) -> &'static [&'static str] {
-		&[
-			"openai-compat/gemini-2.5-flash-image",
-			"gemini-2.5-flash-image",
-		]
+		&["openai-compat/nano-banana"]
 	}
 
 	fn api_model_name(&self) -> &'static str {
-		"gemini-2.5-flash-image"
+		"google/nano-banana"
 	}
 }
 

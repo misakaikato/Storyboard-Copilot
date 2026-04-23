@@ -13,7 +13,7 @@
 > 相对上游版本，此 fork 新增了对 **OpenAI 兼容图像 API** 的原生支持，尤其对 [Uni API](https://uniapi.io) 这类聚合网关做了默认适配，是**更易用的版本**——不用自建代理、不用改源码，填一个 Key 就能跑。
 
 - **零配置对接 Uni API**：内置 `https://api.uniapi.io` 作为默认 Base URL，设置页 → 供应商 → 「OpenAI 兼容」 里填入 API Key 即可开始生成。
-- **Gemini 图像全家桶**：在「OpenAI 兼容」下直接选 Nano Banana / Nano Banana 2 / Nano Banana Pro（对应 `gemini-2.5-flash-image`、`gemini-3.1-flash-image-preview`、`gemini-3-pro-image-preview`）。
+- **Gemini 图像全家桶**：在「OpenAI 兼容」下直接选 Nano Banana / Nano Banana 2 / Nano Banana Pro（对应 Uni API 的 `google/nano-banana`、`google/nano-banana-2`、`google/nano-banana-pro`）。
 - **文生图 + 图生图一键切换**：无参考图走 `POST /v1/images/generations`（JSON），连上参考图自动切到 `POST /v1/images/edits`（multipart，最多 16 张）。
 - **结果自动落盘**：优先取 `b64_json` 拼 data URL 直接渲染，缺省时回落到 `url` 字段，不依赖额外的文件存储。
 

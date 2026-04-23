@@ -1,13 +1,13 @@
 import type { ImageModelDefinition } from '../../types';
 
-export const OPENAI_COMPAT_NANO_BANANA_2_MODEL_ID = 'openai-compat/gemini-3.1-flash-image-preview';
+export const OPENAI_COMPAT_NANO_BANANA_2_MODEL_ID = 'openai-compat/nano-banana-2';
 
 export const imageModel: ImageModelDefinition = {
 	id: OPENAI_COMPAT_NANO_BANANA_2_MODEL_ID,
 	mediaType: 'image',
 	displayName: 'Nano Banana 2',
 	providerId: 'openai-compat',
-	description: 'OpenAI 兼容格式 · gemini-3.1-flash-image-preview',
+	description: 'OpenAI 兼容格式 · google/nano-banana-2',
 	eta: '1min',
 	expectedDurationMs: 60000,
 	defaultAspectRatio: '1:1',
